@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# Install Homebrew packages from Brewfile
+echo "Installing Homebrew packages..."
+cd {{ .chezmoi.homeDir }}
+brew bundle install
+
+echo "✅ Homebrew packages installed successfully!"
+
