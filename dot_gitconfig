@@ -18,3 +18,6 @@
 	whitespace = red reverse
 [credential]
 	helper = osxkeychain
+[user]
+	email = JW@JustinWallis.com
+	name = Justin Wallis
